@@ -1,4 +1,4 @@
-package me.pirouette.swing.exercices;
+package me.pirouette.swing.exercices.clickcounter;
 
 import javax.swing.*;
 import javax.swing.plaf.nimbus.NimbusLookAndFeel;
@@ -9,7 +9,7 @@ public class MyWindowWithClickCounter extends JFrame {
 
     private JButton btnPushMe = new JButton("Push me");
     private JButton btnClickMe = new JButton("Click me");
-    private JLabel label = new JLabel("");
+    private JLabel label = new JLabel();
     private int clickCounter = 0;
 
     public MyWindowWithClickCounter() throws HeadlessException {
